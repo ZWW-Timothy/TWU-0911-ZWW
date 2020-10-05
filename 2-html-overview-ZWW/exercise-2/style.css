@@ -1,0 +1,30 @@
+body {
+    width: 800px;
+    margin: 100px auto;
+}
+
+table {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border: solid #e0e0dc;
+    border-width: 1px 0 0 1px;
+}
+
+table thead th {
+    background: #c5e6f8;
+}
+
+table td, table th {
+    text-align: left;
+    border: solid #e0e0dc;
+    border-width: 0 1px 1px 0;
+    padding: 8px 12px;
+}
+
+table tfoot td {
+    background: #c5e6f8;
+    text-align: center;
+    font-size: 0.75em;
+}

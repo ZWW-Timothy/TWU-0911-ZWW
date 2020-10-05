@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    /* N13 */
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.navigation  li.current {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    /* N4 */
+    padding: 10px;
+}
+
+#banner {
+    background-image: url("../img/background-img.jpeg");
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    /* N1 */
+    height: 350px;
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    /* N2 */
+    border-style: solid;
+}
+
+#main {
+    padding: 40px;
+    text-align: center;
+    /* N11 */
+    margin:0 auto;
+    /* N12 */
+    width: 500px;
+    height: 800px;
+    overflow: scroll;
+}
+
+/* N12（隐藏滚动条） */
+#main::-webkit-scrollbar {
+    display: hidden;
+}
+
+h2 {
+    padding: 20px 10px;
+    color: red;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h3 {
+    color: red;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+    /* N3 */
+    border-style: dotted;
+    /* N8 */
+    margin: 30px 20px;
+    /* N9 */
+    padding: 20px 30px;
+}
+
+p {
+    padding: 10px 20px;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.5em;
+    /* N6 */
+    margin-top: 40px;
+}
+
+.pull-quote {
+    /* N10 */
+    width: 400px;
+    margin:0 auto;
+}
+
+.byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.share a {
+    background: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    /* N5 */
+    padding: 14px;
+    /* N7 */
+    margin: 10px;
+}
+
+.share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+}
+
+/* N14 */
+.global {
+    visibility: hidden;
+}
